@@ -14,7 +14,19 @@ To get started with the `IZS 'PDL Account' embedded widget`, you need to include
 
 ### Step 1: Include the Widget Styles and Script
 
-Add the following link tag to the `<head>` section and script tag to the `<body>` section of your HTML file:
+Add the following link tag to the `<head>` section 
+
+```html
+<link rel="stylesheet" href="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-style.css">
+```
+
+and following script tag to the `<body>` section of your HTML file:
+
+```html
+<link rel="stylesheet" href="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-style.css">
+```
+
+Example:
 
 ```html
 <head>
@@ -30,13 +42,13 @@ Add the following link tag to the `<head>` section and script tag to the `<body>
 
 ### Step 2: Initialize the Widget
 
-In the <body> section of your HTML file where you want the widget to appear, add the <div> tag with defined id attribute 
+In the <body> section of your HTML file where you want the widget to appear, add the following html element with defined id attribute 
 
 ```html
 <div id="izsWidget"></div>
 ```
 
-and initialize the widget with the folowing code, where you provide call the function with the selector of the widget container and the configuration object with required api key (provided by the ISZ support) and optional properties for customizatoion.
+and initialize the widget with the folowing code, where you call the widget function with the selector of the widget container and the configuration object with required api key (provided by the ISZ support) and optional properties for customizatoion.
 
 ```html
 IzsWidget.init('#izsWidget',  { apiKey: 'sfe6efef87876efeeefe' });
@@ -70,7 +82,7 @@ Here is a basic example of how to use the widget:
 
 ## Customization
 
-Comming soon... In the next versions of the widget you will be able to customize the izs embedded widget by passing different options to the init method.
+Comming soon... In the next versions of the widget you will be able to customize the IZS embedded widget by passing different options to the init method.
 
 ## Support
 
