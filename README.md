@@ -71,7 +71,7 @@ Here is a basic example of how to use the widget:
   <title>IZS Embedded Widget Example</title>
 </head>
 <body>
-  <div id="izs-widget-container"></div>
+  <div id="izsWidget"></div>
   
   <script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.umd.js"></script>
   <script>
