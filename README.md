@@ -48,10 +48,13 @@ In the <body> section of your HTML file where you want the widget to appear, add
 <div id="izsWidget"></div>
 ```
 
-and initialize the widget with the folowing code, where you call the widget function with the selector of the widget container and the configuration object with required api key (provided by the ISZ support) and optional properties for customizatoion.
+and initialize the widget with the folowing code, where you call the widget function with the selector of the widget container and the configuration object with required api key (provided by the ISZ support) and other optional properties.
 
 ```html
-IzsWidget.init('#izsWidget',  { apiKey: 'sfe6efef87876efeeefe' });
+IzsWidget.init('#izsWidget', {
+  apiKey: 'sfe6efef87876efeeefe',
+  pdlId: 'q937A00000oln1vQA'
+});
 ```
 
 ### Basic Example
@@ -73,7 +76,10 @@ Here is a basic example of how to use the widget:
   <script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.umd.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      IzsWidget.init('#izsWidget',  { apiKey: 'sfe6efef87876efeeefe' });
+      IzsWidget.init('#izsWidget', {
+        apiKey: 'sfe6efef87876efeeefe',
+        pdlId: 'q937A00000oln1vQA'
+      });
     });
   </script>
 </body>
