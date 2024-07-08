@@ -23,7 +23,7 @@ Add the following link tag to the `<head>` section
 and following script tag to the `<body>` section of your HTML file:
 
 ```html
-<link rel="stylesheet" href="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-style.css">
+<script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.umd.js"></script>
 ```
 
 Example:
@@ -50,7 +50,7 @@ In the <body> section of your HTML file where you want the widget to appear, add
 
 and initialize the widget with the folowing code, where you call the widget function with the selector of the widget container and the configuration object with required api key (provided by the ISZ support) and other optional properties.
 
-```html
+```javascript
 IzsWidget.init('#izsWidget', {
   apiKey: 'sfe6efef87876efeeefe',
   pdlId: 'q937A00000oln1vQA'
