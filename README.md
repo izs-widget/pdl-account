@@ -23,7 +23,7 @@ Add the following link tag to the `<head>` section
 and following script tag to the `<body>` section of your HTML file:
 
 ```html
-<script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.umd.js"></script>
+<script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.js"></script>
 ```
 
 Example:
@@ -36,7 +36,7 @@ Example:
 </head>
 <body>
     ...
-    <script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.umd.js"></script>
+    <script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.js"></script>
 </body>
 ```
 
@@ -73,7 +73,7 @@ Here is a basic example of how to use the widget:
 <body>
   <div id="izsWidget"></div>
   
-  <script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.umd.js"></script>
+  <script src="https://widget-izs.s3.eu-north-1.amazonaws.com/izs-widget.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       IzsWidget.init('#izsWidget', {
