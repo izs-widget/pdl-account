@@ -6,6 +6,7 @@ The `IZS embedded widget` is a versatile tool designed and developed for seamles
 
 - [Usage](#usage)
 - [Customization](#customization)
+- [Demo](#demo)
 - [Support](#support)
 
 ## Usage
@@ -85,6 +86,10 @@ Here is a basic example of how to use the widget:
 </body>
 </html>
 ```
+
+## Demo
+
+You can visit a [demo page](https://pdl-account-widget.netlify.app/) with integrated IZS 'PDL Account' Embedded Widget to see how it works.
 
 ## Customization
 
