@@ -5,8 +5,8 @@ The `IZS embedded widget` is a versatile tool designed and developed for seamles
 ## Table of Contents
 
 - [Usage](#usage)
-- [Customization](#customization)
 - [Demo](#demo)
+- [Customization](#customization)
 - [Support](#support)
 
 ## Usage
