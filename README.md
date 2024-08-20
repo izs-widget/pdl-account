@@ -7,6 +7,7 @@ The `IZS embedded widget` is a versatile tool designed and developed for seamles
 - [Usage](#usage)
 - [Demo](#demo)
 - [Customization](#customization)
+- [Info](#info)
 - [Support](#support)
 
 ## Usage
@@ -143,6 +144,10 @@ IzsWidget.init('#izsWidget', {
   }
 });
 ```
+
+## Info
+
+There is no mobile optimized view for the widget. The notification about that will be shown on mobile devices instead of the widget content. You can hide the section with the widget if the device screen width or height is less than 680 pixels (below this value the notification is displayed).
 
 ## Support
 
