@@ -153,6 +153,8 @@ IzsWidget.init('#izsWidget', {
     reportButtonFontSize: '16px',
     reportButtonBorderColor: '#fff',
     reportButtonBorderRadius: '10px'
+
+    iconsColor: '#ee7a0a'
   }
 });
 ```
