@@ -152,7 +152,7 @@ IzsWidget.init('#izsWidget', {
     reportButtonBackgroundColor: '#ee7a0a',
     reportButtonFontSize: '16px',
     reportButtonBorderColor: '#fff',
-    reportButtonBorderRadius: '10px'
+    reportButtonBorderRadius: '10px',
 
     iconsColor: '#ee7a0a'
   }
