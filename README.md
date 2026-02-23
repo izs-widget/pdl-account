@@ -94,13 +94,25 @@ You can visit a [demo page](https://pdl-account-widget.netlify.app/) with integr
 
 ## Customization
 
-You are able to customize the IZS embedded widget by passing different options to the init method. For that aim there is additional object 'styles' where you can pass key-value pairs provided below to style different parts of the widget.
-All available options for styling with default values are provided below in the code example.
+You are able to customize the IZS embedded widget by passing different options to the init method. For that aim there is additional objects 'content' and 'styles' where you can pass key-value pairs provided below to configure and style different parts of the widget.
+All available options for configuration and styling with default values are provided below in the code example.
 
 ```javascript
 IzsWidget.init('#izsWidget', {
   apiKey: 'sfe6efef87876efeeefe', //required
   pdlId: 'q937A00000oln1vQA', // required
+  content: {
+    tabs: {
+      masterData: { show: true },
+      salesOffices: { show: true },
+      risks: { show: true },
+      protect: { show: true },
+      documents: { show: true },
+      au: { show: true },
+      bg: { show: true },
+      sv: { show: true }
+    }
+  },
   styles: {
     containerMaxWidth: '1366px', // max width of the main widget container, minimum value to set 860px
     tabViewHeight: '600px', // height of the tab section, minimum value to set 400px
