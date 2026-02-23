@@ -94,7 +94,7 @@ You can visit a [demo page](https://pdl-account-widget.netlify.app/) with integr
 
 ## Customization
 
-You are able to customize the IZS embedded widget by passing different options to the init method. For that aim there is additional objects 'content' and 'styles' where you can pass key-value pairs provided below to configure and style different parts of the widget.
+You are able to customize the IZS embedded widget by passing different options to the init method. For that aim there are additional objects 'content' and 'styles' where you can pass key-value pairs provided below to configure and style different parts of the widget.
 All available options for configuration and styling with default values are provided below in the code example.
 
 ```javascript
